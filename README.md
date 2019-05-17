@@ -16,4 +16,4 @@ This was georectified and digitised in QGIS, resulting in the following data:
 The total maximum area available, for the terrace, common house and the entire shed roof area, respectively, was calculated as follows:
 
     #> Units: [m^2]
-    #> [1] 388.62259  87.03578  30.65030
+    #> [1] 389.82171  87.03578  30.65030
