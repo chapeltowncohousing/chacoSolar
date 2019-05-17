@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # parameters from joju
 panel_width = 991
 panel_height = 1650
+panel_area = panel_width * panel_height / 1e6
 output = 270
 48060 / output 
 ```
@@ -83,20 +84,30 @@ included provision for 127 1600x980mm panels as follow:
 
 Assuming a per panel output of 270 W, this would mean Chaco could generate 34 KWp in full sunshine.
 
-Based on the knowledge that the panels will be slightly larger: 1650x991mm.
-Given that the roof has an elevation of 35 degrees, such panels would have a horizontal footprint of 1619x991mm.
-In the original scenario, they would cover `r round(1619 * 991 * 127 / 1e6)` m^2^, less than half of the total available space under optimistic assumptions.
-
-The assumption about panel size, plus use of digitising tools in QGIS, allows the panel location to envisioned:
-
 ```{r, eval=FALSE}
 # old panels
 (n_panels_original = 14 * 6 +
   4 * 4 +
   27)
 n_panels_original * output / 1000
-panel_height * cos(35 / 180)
+(panel_adjusted_width = panel_width * cos(35 / 180))
+(panel_adjusted_height = panel_height * cos(35 / 180))
+(panel_adjusted_height = panel_height * cos(35 / 180)) * 2
 ```
+
+Based on the knowledge that the panels will be slightly larger: 1650x991mm.
+Given that the roof has an elevation of 35 degrees, such panels would have a horizontal footprint of 1619x991mm.
+In the original scenario, they would cover `r round(1619 * 991 * 127 / 1e6)` m^2^, less than half of the total available space under optimistic assumptions.
+
+The assumption about panel size, plus use of digitising tools in QGIS, allows the panel location to envisioned.
+The figure below shows two ways of aligning the panels: stacked as portrait or landscape.
+The portrait way is a squeeze: the roof is just over 3.3 m long in the horizontal access; two panels stacked in portrait formation are just over 3.2 m, leaving ~10 cm clearance, which may be insufficient.
+
+```{r}
+knitr::include_graphics("closeup3.png")
+```
+
+The portrait stacking style leaves more room, at 
 
 ```{r}
 # joju scenario

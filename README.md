@@ -38,6 +38,10 @@ Assuming a per panel output of 270 W, this would mean Chaco could generate 34 KW
 
 Based on the knowledge that the panels will be slightly larger: 1650x991mm. Given that the roof has an elevation of 35 degrees, such panels would have a horizontal footprint of 1619x991mm. In the original scenario, they would cover 204 m<sup>2</sup>, less than half of the total available space under optimistic assumptions.
 
-The assumption about panel size, plus use of digitising tools in QGIS, allows the panel location to envisioned:
+The assumption about panel size, plus use of digitising tools in QGIS, allows the panel location to envisioned. The figure below shows two ways of aligning the panels: stacked as portrait or landscape. The portrait way is a squeeze: the roof is just over 3.3 m long in the horizontal access; two panels stacked in portrait formation are just over 3.2 m, leaving ~10 cm clearance, which may be insufficient.
+
+<img src="closeup3.png" width="743" />
+
+The portrait stacking style leaves more room, at
 
 [1] M&E performance specification(revA)
