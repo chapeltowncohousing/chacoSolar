@@ -7,7 +7,6 @@ output: github_document
 
 ```{r, include = FALSE}
 library(tmap)
-tmap_mode("view")
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -36,17 +35,59 @@ knitr::include_graphics("sitemap-aerial.png")
 
 # How much PV is possible?
 
+Based on architectural drawings, the south facing roofspace available was estimated.
+The first stage was to digitise the pdfs into simple block representations of the buildings and highlight south-facing roofs, as illustrated in the figure below. 
+
+```{r}
+# knitr::include_graphics("layout-south-facing-with-scale.png")
+```
+
+This was georectified and digitised in QGIS, resulting in the following data, which has been made available as open data:
+
+```{r, message=FALSE}
+solars = sf::read_sf("solars.geojson")
+buildings = sf::read_sf("chaco-buildings.geojson")
+shading = rbind(
+  sf::read_sf("shaded-east.geojson"),
+  sf::read_sf("shaded-west.geojson")
+)
+tm_shape(buildings) +
+  tm_fill("grey") +
+  tm_shape(solars) +
+  tm_polygons(col = "red") +
+  tm_shape(shading) +
+  tm_polygons(col = "black", alpha = 0.5) +
+  tm_scale_bar(breaks = c(0, 0.01)) +
+  tm_compass(position = c("left", "top"))
+  # tm_view(basemaps = leaflet::providers$OpenStreetMap.BlackAndWhite) +
+    
+```
+
+The total maximum area available, for the terrace, common house, the shed (the least certain of the roofs for panels) and the total roof area, respectively, was calculated as follows:
+
+```{r}
+round({total_south_area = sf::st_area(solars)})
+sum({total_south_area = sf::st_area(solars)})
+```
+
+Of course, these values cannot be achieved in practice: the entire 390 m^2^ of space available on the terrace roof, for example, cannot be entirely overtaken by panels! 
+
 The initial spec document^[
 M&E performance specification(revA)
 ]
-included provision for 127 standard 1600x980mm panels as follow:
+included provision for 127 1600x980mm panels as follow:
 
 - 14 * 6 panel installations on the 14 unshaded roofs of the terrace
 - 4 * 4 panel installations on the remaining 4 'type C' terrace roofs that will receive some shading 
 - 27 panels on the common house
 
 Assuming a per panel output of 270 W, this would mean Chaco could generate 34 KWp in full sunshine.
-This scenario is illustrated in the figue below.
+
+Based on the knowledge that the panels will be slightly larger: 1650x991mm.
+Given that the roof has an elevation of 35 degrees, such panels would have a horizontal footprint of 1619x991mm.
+In the original scenario, they would cover `r round(1619 * 991 * 127 / 1e6)` m^2^, less than half of the total available space under optimistic assumptions.
+
+The assumption about panel size, plus use of digitising tools in QGIS, allows the panel location to envisioned:
 
 ```{r, eval=FALSE}
 # old panels
@@ -64,30 +105,6 @@ n_panels_joju = 178
 
 
 
-Based on architectural drawings, the south facing roofspace available was estimated.
-The first stage was to digitise the pdfs into simple block representations of the buildings and highlight south-facing roofs, as illustrated in the figure below. 
-
-```{r}
-knitr::include_graphics("layout-south-facing-with-scale.png")
-```
-
-This was georectified and digitised in QGIS, resulting in the following data:
-
-```{r, message=FALSE}
-solars = sf::read_sf("solars.geojson")
-buildings = sf::read_sf("chaco-buildings.geojson")
-tm_shape(buildings) +
-  tm_fill("grey") +
-  tm_shape(solars) +
-  tm_polygons(col = "red") +
-  tm_view(basemaps = leaflet::providers$OpenStreetMap.BlackAndWhite)
-```
-
-The total maximum area available, for the terrace, common house and the entire shed roof area, respectively, was calculated as follows:
-
-```{r}
-sf::st_area(solars)
-```
 
 
 
