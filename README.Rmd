@@ -1,0 +1,44 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+library(tmap)
+tmap_mode("view")
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  echo = FALSE
+)
+```
+# chacoSolar
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Based on architectural drawings, the south facing roofspace available was estimated.
+The first stage was to digitise the pdfs into simple block representations of the buildings and highlight south-facing roofs, as illustrated in the figure below. 
+
+```{r}
+knitr::include_graphics("layout-south-facing-with-scale.png")
+```
+
+This was georectified and digitised in QGIS, resulting in the following data:
+
+```{r, message=FALSE}
+solars = sf::read_sf("solars.geojson")
+tm_shape(solars) +
+  tm_polygons(col = "red") +
+  tm_view(basemaps = leaflet::providers$OpenStreetMap.BlackAndWhite)
+```
+
+The total maximum area available, for the terrace, common house and the entire shed roof area, respectively, was calculated as follows:
+
+```{r}
+sf::st_area(solars)
+```
+
+
+
