@@ -25,6 +25,21 @@
     <layer-tree-layer source="/home/robin/hd/chaco-group/chacoSolar/panel1.geojson|layername=panel1" id="panel1_8eff94f8_5b8d_4474_a212_956d957a33c4" checked="Qt::Checked" name="panel1" providerKey="ogr" expanded="1">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer source="panel7.gpkg|layername=panel7" id="panel7_2572c2d9_e3a6_4137_9874_7c2305ec052c" checked="Qt::Checked" name="panel7" providerKey="ogr" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="panel6.gpkg|layername=panel6" id="panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e" checked="Qt::Checked" name="panel6" providerKey="ogr" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="panel5.gpkg|layername=panel5" id="panel5_871fd2cb_b311_47a6_9002_a8c694908ca9" checked="Qt::Checked" name="panel5" providerKey="ogr" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="panel4.gpkg|layername=panel4" id="panel4_478f667f_7047_46b1_951e_5d8a4912f991" checked="Qt::Checked" name="panel4" providerKey="ogr" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="panel3.gpkg|layername=panel3" id="panel3_c3121dd2_4d1f_4dca_9cc7_3a9a6c45638a" checked="Qt::Checked" name="panel3" providerKey="ogr" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer source="/home/robin/hd/chaco-group/chacoSolar/panel2.geojson|layername=panel2" id="panel2_4c77b15e_624c_4ab3_b3b4_ab09573a3dc1" checked="Qt::Checked" name="panel2" providerKey="ogr" expanded="1">
       <customproperties/>
     </layer-tree-layer>
@@ -48,25 +63,35 @@
       <item>measures_d6179be5_c1ea_40f8_b3c3_a32da3267e18</item>
       <item>panel2_4c77b15e_624c_4ab3_b3b4_ab09573a3dc1</item>
       <item>panel1_8eff94f8_5b8d_4474_a212_956d957a33c4</item>
+      <item>panel3_c3121dd2_4d1f_4dca_9cc7_3a9a6c45638a</item>
+      <item>panel4_478f667f_7047_46b1_951e_5d8a4912f991</item>
+      <item>panel5_871fd2cb_b311_47a6_9002_a8c694908ca9</item>
+      <item>panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e</item>
+      <item>panel7_2572c2d9_e3a6_4137_9874_7c2305ec052c</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings unit="1" tolerance="12" intersection-snapping="0" mode="2" enabled="0" type="1">
     <individual-layer-settings>
       <layer-setting id="panel2_4c77b15e_624c_4ab3_b3b4_ab09573a3dc1" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="measures_d6179be5_c1ea_40f8_b3c3_a32da3267e18" tolerance="12" units="1" enabled="0" type="1"/>
+      <layer-setting id="panel5_871fd2cb_b311_47a6_9002_a8c694908ca9" tolerance="12" units="1" enabled="0" type="1"/>
+      <layer-setting id="panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e" tolerance="12" units="1" enabled="0" type="1"/>
+      <layer-setting id="panel4_478f667f_7047_46b1_951e_5d8a4912f991" tolerance="12" units="1" enabled="0" type="1"/>
+      <layer-setting id="panel3_c3121dd2_4d1f_4dca_9cc7_3a9a6c45638a" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="solars_a4aef71b_67c2_4902_9182_86a8f5d87608" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="panel1_8eff94f8_5b8d_4474_a212_956d957a33c4" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="solars_83d443ad_12f6_4749_acb4_0ac974c46108" tolerance="12" units="1" enabled="0" type="1"/>
+      <layer-setting id="panel7_2572c2d9_e3a6_4137_9874_7c2305ec052c" tolerance="12" units="1" enabled="0" type="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>-1.52852921841158418</xmin>
-      <ymin>53.81049960205147187</ymin>
-      <xmax>-1.52850132930487792</xmax>
-      <ymax>53.81051756479012482</ymax>
+      <xmin>431140.53052281239069998</xmin>
+      <ymin>435011.95790905295871198</ymin>
+      <xmax>431147.90068676532246172</xmax>
+      <ymax>435020.00055310199968517</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -94,6 +119,31 @@
     <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Checked" name="panel1">
       <filegroup open="true" hidden="false">
         <legendlayerfile layerid="panel1_8eff94f8_5b8d_4474_a212_956d957a33c4" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Checked" name="panel7">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="panel7_2572c2d9_e3a6_4137_9874_7c2305ec052c" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Checked" name="panel6">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Checked" name="panel5">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="panel5_871fd2cb_b311_47a6_9002_a8c694908ca9" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Checked" name="panel4">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="panel4_478f667f_7047_46b1_951e_5d8a4912f991" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Checked" name="panel3">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="panel3_c3121dd2_4d1f_4dca_9cc7_3a9a6c45638a" isInOverview="0" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Checked" name="panel2">
@@ -464,8 +514,8 @@
       <extent>
         <xmin>-1.52852855438523405</xmin>
         <ymin>53.81050002973572788</ymin>
-        <xmax>-1.52850199333122805</xmax>
-        <ymax>53.81051713710586881</ymax>
+        <xmax>-1.52850218439554508</xmax>
+        <ymax>53.81051691589855324</ymax>
       </extent>
       <id>panel1_8eff94f8_5b8d_4474_a212_956d957a33c4</id>
       <datasource>./panel1.geojson|layername=panel1</datasource>
@@ -964,6 +1014,796 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer geometry="Polygon" maxScale="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshEnabled="0" minScale="1e+08" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyMessage="" readOnly="0" type="vector" simplifyLocal="1">
       <extent>
+        <xmin>431144.25</xmin>
+        <ymin>435014.375</ymin>
+        <xmax>431146.21875</xmax>
+        <ymax>435016.1875</ymax>
+      </extent>
+      <id>panel3_c3121dd2_4d1f_4dca_9cc7_3a9a6c45638a</id>
+      <datasource>panel3.gpkg|layername=panel3</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>panel3</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB 1936 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" name="0" alpha="1" type="fill">
+            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="141,90,153,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="fid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="fid" name=""/>
+        <alias index="1" field="id" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="fid" applyOnUpdate="0" expression=""/>
+        <default field="id" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="fid" unique_strength="1" exp_strength="0" notnull_strength="1" constraints="3"/>
+        <constraint field="id" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="fid" desc="" exp=""/>
+        <constraint field="id" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer geometry="Polygon" maxScale="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshEnabled="0" minScale="1e+08" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyMessage="" readOnly="0" type="vector" simplifyLocal="1">
+      <extent>
+        <xmin>431144.90625</xmin>
+        <ymin>435015.34375</ymin>
+        <xmax>431146.875</xmax>
+        <ymax>435017.0625</ymax>
+      </extent>
+      <id>panel4_478f667f_7047_46b1_951e_5d8a4912f991</id>
+      <datasource>panel4.gpkg|layername=panel4</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>panel4</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB 1936 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" name="0" alpha="1" type="fill">
+            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="232,113,141,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="fid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="fid" name=""/>
+        <alias index="1" field="id" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="fid" applyOnUpdate="0" expression=""/>
+        <default field="id" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="fid" unique_strength="1" exp_strength="0" notnull_strength="1" constraints="3"/>
+        <constraint field="id" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="fid" desc="" exp=""/>
+        <constraint field="id" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer geometry="Polygon" maxScale="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshEnabled="0" minScale="1e+08" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyMessage="" readOnly="0" type="vector" simplifyLocal="1">
+      <extent>
+        <xmin>431142</xmin>
+        <ymin>435015</ymin>
+        <xmax>431143</xmax>
+        <ymax>435016.625</ymax>
+      </extent>
+      <id>panel5_871fd2cb_b311_47a6_9002_a8c694908ca9</id>
+      <datasource>panel5.gpkg|layername=panel5</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>panel5</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB 1936 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" name="0" alpha="1" type="fill">
+            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,158,23,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="fid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="fid" name=""/>
+        <alias index="1" field="id" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="fid" applyOnUpdate="0" expression=""/>
+        <default field="id" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="fid" unique_strength="1" exp_strength="0" notnull_strength="1" constraints="3"/>
+        <constraint field="id" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="fid" desc="" exp=""/>
+        <constraint field="id" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer geometry="Polygon" maxScale="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshEnabled="0" minScale="1e+08" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyMessage="" readOnly="0" type="vector" simplifyLocal="1">
+      <extent>
+        <xmin>431140.9375</xmin>
+        <ymin>435014.9375</ymin>
+        <xmax>431141.96875</xmax>
+        <ymax>435016.65625</ymax>
+      </extent>
+      <id>panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e</id>
+      <datasource>panel6.gpkg|layername=panel6</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>panel6</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB 1936 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" name="0" alpha="1" type="fill">
+            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="190,207,80,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="fid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="fid" name=""/>
+        <alias index="1" field="id" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="fid" applyOnUpdate="0" expression=""/>
+        <default field="id" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="fid" unique_strength="1" exp_strength="0" notnull_strength="1" constraints="3"/>
+        <constraint field="id" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="fid" desc="" exp=""/>
+        <constraint field="id" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer geometry="Polygon" maxScale="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshEnabled="0" minScale="1e+08" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyMessage="" readOnly="0" type="vector" simplifyLocal="1">
+      <extent>
+        <xmin>431145.46875</xmin>
+        <ymin>435016.21875</ymin>
+        <xmax>431147.4375</xmax>
+        <ymax>435018.03125</ymax>
+      </extent>
+      <id>panel7_2572c2d9_e3a6_4137_9874_7c2305ec052c</id>
+      <datasource>panel7.gpkg|layername=panel7</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>panel7</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB 1936 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" name="0" alpha="1" type="fill">
+            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="225,89,137,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="fid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="fid" name=""/>
+        <alias index="1" field="id" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="fid" applyOnUpdate="0" expression=""/>
+        <default field="id" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="fid" unique_strength="1" exp_strength="0" notnull_strength="1" constraints="3"/>
+        <constraint field="id" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="fid" desc="" exp=""/>
+        <constraint field="id" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer geometry="Polygon" maxScale="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshEnabled="0" minScale="1e+08" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyMessage="" readOnly="0" type="vector" simplifyLocal="1">
+      <extent>
         <xmin>431143.86145741830114275</xmin>
         <ymin>434989.54027378046885133</ymin>
         <xmax>431242.99896555813029408</xmax>
@@ -1389,6 +2229,11 @@ def my_form_open(dialog, layer, feature):
     <layer id="measures_d6179be5_c1ea_40f8_b3c3_a32da3267e18"/>
     <layer id="panel2_4c77b15e_624c_4ab3_b3b4_ab09573a3dc1"/>
     <layer id="panel1_8eff94f8_5b8d_4474_a212_956d957a33c4"/>
+    <layer id="panel3_c3121dd2_4d1f_4dca_9cc7_3a9a6c45638a"/>
+    <layer id="panel4_478f667f_7047_46b1_951e_5d8a4912f991"/>
+    <layer id="panel5_871fd2cb_b311_47a6_9002_a8c694908ca9"/>
+    <layer id="panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e"/>
+    <layer id="panel7_2572c2d9_e3a6_4137_9874_7c2305ec052c"/>
   </layerorder>
   <properties>
     <WMTSMinScale type="int">5000</WMTSMinScale>
@@ -1485,7 +2330,7 @@ def my_form_open(dialog, layer, feature):
     <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSUrl type="QString"></WMSUrl>
     <Layouts>
-      <lastLayoutExportDir type="QString">/mnt/57982e2a-2874-4246-a6fe-115c199bc6bd/chaco-group/chacoSolar/closeup.png</lastLayoutExportDir>
+      <lastLayoutExportDir type="QString">/mnt/57982e2a-2874-4246-a6fe-115c199bc6bd/chaco-group/chacoSolar/closup2.png</lastLayoutExportDir>
     </Layouts>
     <Paths>
       <Absolute type="bool">false</Absolute>
@@ -1565,7 +2410,7 @@ def my_form_open(dialog, layer, feature):
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
-      <LayoutItem numSegmentsLeft="0" id="" excludeFromExports="0" size="57.5655,193.994,mm" numMapUnitsPerScaleBarUnit="1" background="false" opacity="1" style="Single Box" unitType="meters" groupUuid="" uuid="{c07fa5b2-1dbf-4ed8-b81c-2a6fd05b0763}" boxContentSpace="1" alignment="0" zValue="2" segmentSizeMode="0" segmentMillimeters="23.1558" outlineWidthM="0.3,mm" blendMode="0" frame="false" position="8.12542,181.468,mm" templateUuid="{c07fa5b2-1dbf-4ed8-b81c-2a6fd05b0763}" unitLabel="m" minBarWidth="50" height="3" numSegments="2" numUnitsPerSegment="0.75" positionOnPage="8.12542,181.468,mm" lineCapStyle="square" maxBarWidth="150" positionLock="false" labelBarSpace="3" mapUuid="{07b2a820-cca3-498c-8e57-922579e8ca66}" visibility="1" referencePoint="0" outlineWidth="0.3" lineJoinStyle="miter" type="65646" itemRotation="0" frameJoinStyle="miter">
+      <LayoutItem numSegmentsLeft="0" id="" excludeFromExports="0" size="57.5655,193.994,mm" numMapUnitsPerScaleBarUnit="1" background="false" opacity="1" style="Single Box" unitType="meters" groupUuid="" uuid="{c07fa5b2-1dbf-4ed8-b81c-2a6fd05b0763}" boxContentSpace="1" alignment="0" zValue="2" segmentSizeMode="0" segmentMillimeters="23.1558" outlineWidthM="0.3,mm" blendMode="0" frame="false" position="18.4262,179.179,mm" templateUuid="{c07fa5b2-1dbf-4ed8-b81c-2a6fd05b0763}" unitLabel="m" minBarWidth="50" height="3" numSegments="2" numUnitsPerSegment="0.75" positionOnPage="18.4262,179.179,mm" lineCapStyle="square" maxBarWidth="150" positionLock="false" labelBarSpace="3" mapUuid="{07b2a820-cca3-498c-8e57-922579e8ca66}" visibility="1" referencePoint="0" outlineWidth="0.3" lineJoinStyle="miter" type="65646" itemRotation="0" frameJoinStyle="miter">
         <FrameColor blue="0" red="0" alpha="255" green="0"/>
         <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
         <LayoutObject>

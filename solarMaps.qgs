@@ -31,6 +31,9 @@
     <layer-tree-layer source="panel6.gpkg|layername=panel6" id="panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e" checked="Qt::Checked" name="panel6" providerKey="ogr" expanded="1">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer source="/home/robin/hd/chaco-group/chacoSolar/panel8.gpkg|layername=panel8" id="panel8_b4ee9464_1cd8_43e0_bdfd_64d8e0710c0c" checked="Qt::Checked" name="panel8" providerKey="ogr" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer source="panel5.gpkg|layername=panel5" id="panel5_871fd2cb_b311_47a6_9002_a8c694908ca9" checked="Qt::Checked" name="panel5" providerKey="ogr" expanded="1">
       <customproperties/>
     </layer-tree-layer>
@@ -49,7 +52,7 @@
     <layer-tree-layer source="solars.shp" id="solars_83d443ad_12f6_4749_acb4_0ac974c46108" checked="Qt::Unchecked" name="solars" providerKey="ogr" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer source="/home/robin/Dropbox/ChaCo energy company/from-starfish/external-works_modified.tif" id="external_works_modified_329cdb56_1835_4a98_b783_0148cb6cbe12" checked="Qt::Unchecked" name="external-works_modified" providerKey="gdal" expanded="1">
+    <layer-tree-layer source="/home/robin/Dropbox/ChaCo energy company/from-starfish/external-works_modified.tif" id="external_works_modified_329cdb56_1835_4a98_b783_0148cb6cbe12" checked="Qt::Checked" name="external-works_modified" providerKey="gdal" expanded="1">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" id="OSM_Standard_2bb06c7f_ce12_43a7_819d_4e41266264d0" checked="Qt::Checked" name="OSM Standard" providerKey="wms" expanded="1">
@@ -68,6 +71,7 @@
       <item>panel5_871fd2cb_b311_47a6_9002_a8c694908ca9</item>
       <item>panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e</item>
       <item>panel7_2572c2d9_e3a6_4137_9874_7c2305ec052c</item>
+      <item>panel8_b4ee9464_1cd8_43e0_bdfd_64d8e0710c0c</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings unit="1" tolerance="12" intersection-snapping="0" mode="2" enabled="0" type="1">
@@ -78,6 +82,7 @@
       <layer-setting id="panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="panel4_478f667f_7047_46b1_951e_5d8a4912f991" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="panel3_c3121dd2_4d1f_4dca_9cc7_3a9a6c45638a" tolerance="12" units="1" enabled="0" type="1"/>
+      <layer-setting id="panel8_b4ee9464_1cd8_43e0_bdfd_64d8e0710c0c" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="solars_a4aef71b_67c2_4902_9182_86a8f5d87608" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="panel1_8eff94f8_5b8d_4474_a212_956d957a33c4" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="solars_83d443ad_12f6_4749_acb4_0ac974c46108" tolerance="12" units="1" enabled="0" type="1"/>
@@ -88,10 +93,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>431140.53052281239069998</xmin>
-      <ymin>435011.95790905295871198</ymin>
-      <xmax>431147.90068676532246172</xmax>
-      <ymax>435020.00055310199968517</ymax>
+      <xmin>431196.38194314227439463</xmin>
+      <ymin>435026.45739325735485181</ymin>
+      <xmax>431203.75210709520615637</xmax>
+      <ymax>435034.500037306395825</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -131,6 +136,11 @@
         <legendlayerfile layerid="panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e" isInOverview="0" visible="1"/>
       </filegroup>
     </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Checked" name="panel8">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="panel8_b4ee9464_1cd8_43e0_bdfd_64d8e0710c0c" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Checked" name="panel5">
       <filegroup open="true" hidden="false">
         <legendlayerfile layerid="panel5_871fd2cb_b311_47a6_9002_a8c694908ca9" isInOverview="0" visible="1"/>
@@ -161,9 +171,9 @@
         <legendlayerfile layerid="solars_83d443ad_12f6_4749_acb4_0ac974c46108" isInOverview="0" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Unchecked" name="external-works_modified">
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Checked" name="external-works_modified">
       <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="external_works_modified_329cdb56_1835_4a98_b783_0148cb6cbe12" isInOverview="0" visible="0"/>
+        <legendlayerfile layerid="external_works_modified_329cdb56_1835_4a98_b783_0148cb6cbe12" isInOverview="0" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Checked" name="OSM Standard">
@@ -1804,6 +1814,164 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer geometry="Polygon" maxScale="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshEnabled="0" minScale="1e+08" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyMessage="" readOnly="0" type="vector" simplifyLocal="1">
       <extent>
+        <xmin>431197.875</xmin>
+        <ymin>435030.03125</ymin>
+        <xmax>431199.4375</xmax>
+        <ymax>435031.96875</ymax>
+      </extent>
+      <id>panel8_b4ee9464_1cd8_43e0_bdfd_64d8e0710c0c</id>
+      <datasource>./panel8.gpkg|layername=panel8</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>panel8</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB 1936 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" name="0" alpha="1" type="fill">
+            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="229,182,54,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="fid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="fid" name=""/>
+        <alias index="1" field="id" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="fid" applyOnUpdate="0" expression=""/>
+        <default field="id" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="fid" unique_strength="1" exp_strength="0" notnull_strength="1" constraints="3"/>
+        <constraint field="id" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="fid" desc="" exp=""/>
+        <constraint field="id" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer geometry="Polygon" maxScale="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshEnabled="0" minScale="1e+08" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyMessage="" readOnly="0" type="vector" simplifyLocal="1">
+      <extent>
         <xmin>431143.86145741830114275</xmin>
         <ymin>434989.54027378046885133</ymin>
         <xmax>431242.99896555813029408</xmax>
@@ -2234,6 +2402,7 @@ def my_form_open(dialog, layer, feature):
     <layer id="panel5_871fd2cb_b311_47a6_9002_a8c694908ca9"/>
     <layer id="panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e"/>
     <layer id="panel7_2572c2d9_e3a6_4137_9874_7c2305ec052c"/>
+    <layer id="panel8_b4ee9464_1cd8_43e0_bdfd_64d8e0710c0c"/>
   </layerorder>
   <properties>
     <WMTSMinScale type="int">5000</WMTSMinScale>
@@ -2330,7 +2499,7 @@ def my_form_open(dialog, layer, feature):
     <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSUrl type="QString"></WMSUrl>
     <Layouts>
-      <lastLayoutExportDir type="QString">/mnt/57982e2a-2874-4246-a6fe-115c199bc6bd/chaco-group/chacoSolar/closup2.png</lastLayoutExportDir>
+      <lastLayoutExportDir type="QString">/mnt/57982e2a-2874-4246-a6fe-115c199bc6bd/chaco-group/chacoSolar/closeup3.png</lastLayoutExportDir>
     </Layouts>
     <Paths>
       <Absolute type="bool">false</Absolute>
@@ -2410,7 +2579,7 @@ def my_form_open(dialog, layer, feature):
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
-      <LayoutItem numSegmentsLeft="0" id="" excludeFromExports="0" size="57.5655,193.994,mm" numMapUnitsPerScaleBarUnit="1" background="false" opacity="1" style="Single Box" unitType="meters" groupUuid="" uuid="{c07fa5b2-1dbf-4ed8-b81c-2a6fd05b0763}" boxContentSpace="1" alignment="0" zValue="2" segmentSizeMode="0" segmentMillimeters="23.1558" outlineWidthM="0.3,mm" blendMode="0" frame="false" position="18.4262,179.179,mm" templateUuid="{c07fa5b2-1dbf-4ed8-b81c-2a6fd05b0763}" unitLabel="m" minBarWidth="50" height="3" numSegments="2" numUnitsPerSegment="0.75" positionOnPage="18.4262,179.179,mm" lineCapStyle="square" maxBarWidth="150" positionLock="false" labelBarSpace="3" mapUuid="{07b2a820-cca3-498c-8e57-922579e8ca66}" visibility="1" referencePoint="0" outlineWidth="0.3" lineJoinStyle="miter" type="65646" itemRotation="0" frameJoinStyle="miter">
+      <LayoutItem numSegmentsLeft="0" id="" excludeFromExports="0" size="57.5701,193.994,mm" numMapUnitsPerScaleBarUnit="1" background="false" opacity="1" style="Single Box" unitType="meters" groupUuid="" uuid="{c07fa5b2-1dbf-4ed8-b81c-2a6fd05b0763}" boxContentSpace="1" alignment="0" zValue="2" segmentSizeMode="0" segmentMillimeters="23.1581" outlineWidthM="0.3,mm" blendMode="0" frame="false" position="18.4262,179.179,mm" templateUuid="{c07fa5b2-1dbf-4ed8-b81c-2a6fd05b0763}" unitLabel="m" minBarWidth="50" height="3" numSegments="2" numUnitsPerSegment="0.75" positionOnPage="18.4262,179.179,mm" lineCapStyle="square" maxBarWidth="150" positionLock="false" labelBarSpace="3" mapUuid="{07b2a820-cca3-498c-8e57-922579e8ca66}" visibility="1" referencePoint="0" outlineWidth="0.3" lineJoinStyle="miter" type="65646" itemRotation="0" frameJoinStyle="miter">
         <FrameColor blue="0" red="0" alpha="255" green="0"/>
         <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
         <LayoutObject>
@@ -2432,7 +2601,7 @@ def my_form_open(dialog, layer, feature):
         <fillColor2 blue="255" red="255" alpha="255" green="255"/>
         <strokeColor blue="0" red="0" alpha="255" green="0"/>
       </LayoutItem>
-      <LayoutItem position="8.12542,8.46398,mm" referencePoint="0" id="" labelMargin="0,mm" keepLayerSet="false" groupUuid="" outlineWidthM="0.3,mm" visibility="1" blendMode="0" drawCanvasItems="true" positionLock="false" itemRotation="0" opacity="1" templateUuid="{07b2a820-cca3-498c-8e57-922579e8ca66}" zValue="1" followPreset="false" type="65639" frameJoinStyle="miter" excludeFromExports="0" uuid="{07b2a820-cca3-498c-8e57-922579e8ca66}" mapFlags="0" frame="false" positionOnPage="8.12542,8.46398,mm" followPresetName="" size="279.989,193.994,mm" mapRotation="0" background="true">
+      <LayoutItem position="8.12542,8.46398,mm" referencePoint="0" id="" labelMargin="0,mm" keepLayerSet="false" groupUuid="" outlineWidthM="0.3,mm" visibility="1" blendMode="0" drawCanvasItems="true" positionLock="false" itemRotation="0" opacity="1" templateUuid="{07b2a820-cca3-498c-8e57-922579e8ca66}" zValue="1" followPreset="false" type="65639" frameJoinStyle="miter" excludeFromExports="0" uuid="{07b2a820-cca3-498c-8e57-922579e8ca66}" mapFlags="0" frame="false" positionOnPage="8.12542,8.46398,mm" followPresetName="" size="279.989,193.995,mm" mapRotation="0" background="true">
         <FrameColor blue="0" red="0" alpha="255" green="0"/>
         <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
         <LayoutObject>
@@ -2445,7 +2614,7 @@ def my_form_open(dialog, layer, feature):
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent ymax="435019.97557282150955871" ymin="435013.69527196377748623" xmin="431142.74065860355040058" xmax="431151.80489736323943362"/>
+        <Extent ymax="435020.25189555832184851" ymin="435013.97159470058977604" xmin="431140.6037627721671015" xmax="431149.66800153185613453"/>
         <LayerSet/>
         <AtlasMap margin="0.10000000000000001" atlasDriven="0" scalingMode="2"/>
         <labelBlockingItems/>
@@ -2457,7 +2626,7 @@ def my_form_open(dialog, layer, feature):
         <property value="0" key="imageCropMarginLeft"/>
         <property value="0" key="imageCropMarginRight"/>
         <property value="0" key="imageCropMarginTop"/>
-        <property value="false" key="imageCropToContents"/>
+        <property value="true" key="imageCropToContents"/>
       </customproperties>
       <Atlas hideCoverage="0" pageNameExpression="" filterFeatures="0" sortFeatures="0" filenamePattern="'output_'||@atlas_featurenumber" coverageLayer="" enabled="0"/>
     </Layout>
