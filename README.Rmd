@@ -29,7 +29,10 @@ This was georectified and digitised in QGIS, resulting in the following data:
 
 ```{r, message=FALSE}
 solars = sf::read_sf("solars.geojson")
-tm_shape(solars) +
+buildings = sf::read_sf("chaco-buildings.geojson")
+tm_shape(buildings) +
+  tm_fill("grey") +
+  tm_shape(solars) +
   tm_polygons(col = "red") +
   tm_view(basemaps = leaflet::providers$OpenStreetMap.BlackAndWhite)
 ```
