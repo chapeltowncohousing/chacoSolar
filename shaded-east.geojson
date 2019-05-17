@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "shaded-east",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -1.527285880533229, 53.810434863453231 ], [ -1.527251396305827, 53.810402078283929 ], [ -1.527398798895423, 53.810352473685562 ], [ -1.527433920335168, 53.810385734058237 ], [ -1.527285880533229, 53.810434863453231 ] ] ] ] } }
+]
+}

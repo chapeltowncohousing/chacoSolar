@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "shaded-west",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -1.528360823172294, 53.810439826559829 ], [ -1.528328992820908, 53.810473538790404 ], [ -1.528184379880416, 53.810421136604333 ], [ -1.528216605377879, 53.810386864607509 ], [ -1.528360823172294, 53.810439826559829 ] ] ] ] } }
+]
+}

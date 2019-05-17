@@ -1,4 +1,5 @@
 ---
+title: Chaco PV overview document
 output: github_document
 ---
 
@@ -12,11 +13,56 @@ knitr::opts_chunk$set(
   comment = "#>",
   echo = FALSE
 )
-```
-# chacoSolar
 
-<!-- badges: start -->
-<!-- badges: end -->
+# parameters from joju
+panel_width = 991
+panel_height = 1650
+output = 270
+48060 / output 
+```
+
+# Introduction
+
+Sustainability is one of Chaco's core values.
+With ample south-facing roofspace it makes sense to put up solar panels.
+It's much more economical to install PV at build time rather than retrofitting panels, so it makes sense to plan a PV installation into Chaco's design at the earliest possible stage.
+
+The south-facing roof-space available to Chaco is illustrated below:
+
+```{r}
+knitr::include_graphics("sitemap-aerial.png")
+```
+
+
+# How much PV is possible?
+
+The initial spec document^[
+M&E performance specification(revA)
+]
+included provision for 127 standard 1600x980mm panels as follow:
+
+- 14 * 6 panel installations on the 14 unshaded roofs of the terrace
+- 4 * 4 panel installations on the remaining 4 'type C' terrace roofs that will receive some shading 
+- 27 panels on the common house
+
+Assuming a per panel output of 270 W, this would mean Chaco could generate 34 KWp in full sunshine.
+This scenario is illustrated in the figue below.
+
+```{r, eval=FALSE}
+# old panels
+(n_panels_original = 14 * 6 +
+  4 * 4 +
+  27)
+n_panels_original * output / 1000
+panel_height * cos(35 / 180)
+```
+
+```{r}
+# joju scenario
+n_panels_joju = 178
+```
+
+
 
 Based on architectural drawings, the south facing roofspace available was estimated.
 The first stage was to digitise the pdfs into simple block representations of the buildings and highlight south-facing roofs, as illustrated in the figure below. 
