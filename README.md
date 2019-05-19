@@ -61,7 +61,7 @@ Note that in the sketch the panels are packed tightly from the bottom to the top
 
 If only 2 panels could fit per unit of horizontal roofspace, this would also substantally reduce the installed capacity to 130 panels (to 35 kWp, assuming panels go on the curved and shaded roof sections).
 
-It may not be possible or desirable to put that many panels on. However, it is a useful exercise to encourage more accurate and well-informed assessments of Chaco's solar PV potential and an optimal design for a PV installation.
+Other considerations not covered here may increase or decrease Chaco's the capacity of PV that installed in Chaco; this document is not definitive. However, it should be useful, forming a basis for more accurate and well-informed assessments of Chaco's solar PV potential and an optimal design for a PV installation.
 
 Other considerations
 ====================
