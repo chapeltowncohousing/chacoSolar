@@ -1,0 +1,30 @@
+Meeting on PV installation in Chaco, 2019-06-05
+
+Present: Robin, Bill, James
+
+- Meeting with contractor in June/July
+
+- Household energy survey - delay due to RL. RL to share where we're at.
+
+- NPG? RL to get in touch with holding email and say details to follow after contractor meeting.
+
+## Questions
+
+- What are likely % usage on site based on assumptions about PV output and domestic load profiles? And what would be the merits of battery? (JC)
+
+- What monitoring options are available? It would be useful to monitor power output, export, use and revenue generated. It would be particularly interesting to monitor - or maybe control - whether it’s PV or NPG kWhs that we’re using for EVs. Could there be cost incentives to encourage use of PV (e.g. via variable electricity prices)?
+
+- Who is doing M&E work for ChaCo? Question for contractor meeting.
+
+- £53k assuming median cost per KWp of £1,080/KWp  for 10 to 50 KWp systems - in March 2018 would get 49KWp system based on data from BEIS.
+See https://www.gov.uk/government/statistics/solar-pv-cost-data
+
+```{r}
+# 53 / 1.08
+```
+
+
+- 2 * 3.6 kW charging points are in the plan - what monitoring plans are in place on this? 
+
+- Interesting question: how will electrically powered community facilities such as EV charging and laundry work and what impact could they have on energy use? Will it reduce the need to own washing machines?
+

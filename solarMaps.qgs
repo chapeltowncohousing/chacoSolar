@@ -31,7 +31,13 @@
     <layer-tree-layer source="panel6.gpkg|layername=panel6" id="panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e" checked="Qt::Checked" name="panel6" providerKey="ogr" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer source="/home/robin/hd/chaco-group/chacoSolar/panel8.gpkg|layername=panel8" id="panel8_b4ee9464_1cd8_43e0_bdfd_64d8e0710c0c" checked="Qt::Checked" name="panel8" providerKey="ogr" expanded="1">
+    <layer-tree-layer source="panel10.gpkg|layername=panel10" id="panel10_1c3ae938_0a0a_4daf_aeaa_79ead5d576a4" checked="Qt::Unchecked" name="panel10" providerKey="ogr" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="/home/robin/hd/chaco-group/chacoSolar/panel9.gpkg|layername=panel9" id="panel9_1e82fb4c_832b_4e37_b337_ee8556f97919" checked="Qt::Unchecked" name="panel9" providerKey="ogr" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="/home/robin/hd/chaco-group/chacoSolar/panel8.gpkg|layername=panel8" id="panel8_b4ee9464_1cd8_43e0_bdfd_64d8e0710c0c" checked="Qt::Unchecked" name="panel8" providerKey="ogr" expanded="1">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer source="panel5.gpkg|layername=panel5" id="panel5_871fd2cb_b311_47a6_9002_a8c694908ca9" checked="Qt::Checked" name="panel5" providerKey="ogr" expanded="1">
@@ -72,6 +78,8 @@
       <item>panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e</item>
       <item>panel7_2572c2d9_e3a6_4137_9874_7c2305ec052c</item>
       <item>panel8_b4ee9464_1cd8_43e0_bdfd_64d8e0710c0c</item>
+      <item>panel9_1e82fb4c_832b_4e37_b337_ee8556f97919</item>
+      <item>panel10_1c3ae938_0a0a_4daf_aeaa_79ead5d576a4</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings unit="1" tolerance="12" intersection-snapping="0" mode="2" enabled="0" type="1">
@@ -81,22 +89,24 @@
       <layer-setting id="panel5_871fd2cb_b311_47a6_9002_a8c694908ca9" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="panel4_478f667f_7047_46b1_951e_5d8a4912f991" tolerance="12" units="1" enabled="0" type="1"/>
+      <layer-setting id="panel10_1c3ae938_0a0a_4daf_aeaa_79ead5d576a4" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="panel3_c3121dd2_4d1f_4dca_9cc7_3a9a6c45638a" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="panel8_b4ee9464_1cd8_43e0_bdfd_64d8e0710c0c" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="solars_a4aef71b_67c2_4902_9182_86a8f5d87608" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="panel1_8eff94f8_5b8d_4474_a212_956d957a33c4" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="solars_83d443ad_12f6_4749_acb4_0ac974c46108" tolerance="12" units="1" enabled="0" type="1"/>
       <layer-setting id="panel7_2572c2d9_e3a6_4137_9874_7c2305ec052c" tolerance="12" units="1" enabled="0" type="1"/>
+      <layer-setting id="panel9_1e82fb4c_832b_4e37_b337_ee8556f97919" tolerance="12" units="1" enabled="0" type="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>431196.38194314227439463</xmin>
-      <ymin>435026.45739325735485181</ymin>
-      <xmax>431203.75210709520615637</xmax>
-      <ymax>435034.500037306395825</ymax>
+      <xmin>431168.75171638344181702</xmin>
+      <ymin>435000.13601273356471211</ymin>
+      <xmax>431183.4920442893053405</xmax>
+      <ymax>435016.22130083164665848</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -136,9 +146,19 @@
         <legendlayerfile layerid="panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e" isInOverview="0" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Checked" name="panel8">
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Unchecked" name="panel10">
       <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="panel8_b4ee9464_1cd8_43e0_bdfd_64d8e0710c0c" isInOverview="0" visible="1"/>
+        <legendlayerfile layerid="panel10_1c3ae938_0a0a_4daf_aeaa_79ead5d576a4" isInOverview="0" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Unchecked" name="panel9">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="panel9_1e82fb4c_832b_4e37_b337_ee8556f97919" isInOverview="0" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Unchecked" name="panel8">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="panel8_b4ee9464_1cd8_43e0_bdfd_64d8e0710c0c" isInOverview="0" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Checked" name="panel5">
@@ -494,6 +514,164 @@
         <constraint field="id" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
+        <constraint field="id" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer geometry="Polygon" maxScale="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshEnabled="0" minScale="1e+08" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyMessage="" readOnly="0" type="vector" simplifyLocal="1">
+      <extent>
+        <xmin>431222.65625</xmin>
+        <ymin>435041.6875</ymin>
+        <xmax>431224.21875</xmax>
+        <ymax>435043.625</ymax>
+      </extent>
+      <id>panel10_1c3ae938_0a0a_4daf_aeaa_79ead5d576a4</id>
+      <datasource>panel10.gpkg|layername=panel10</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>panel10</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB 1936 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" name="0" alpha="1" type="fill">
+            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="190,178,151,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="fid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="fid" name=""/>
+        <alias index="1" field="id" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="fid" applyOnUpdate="0" expression=""/>
+        <default field="id" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="fid" unique_strength="1" exp_strength="0" notnull_strength="1" constraints="3"/>
+        <constraint field="id" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="fid" desc="" exp=""/>
         <constraint field="id" desc="" exp=""/>
       </constraintExpressions>
       <expressionfields/>
@@ -1972,6 +2150,164 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer geometry="Polygon" maxScale="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshEnabled="0" minScale="1e+08" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyMessage="" readOnly="0" type="vector" simplifyLocal="1">
       <extent>
+        <xmin>431198.625</xmin>
+        <ymin>435028.46875</ymin>
+        <xmax>431200.1875</xmax>
+        <ymax>435030.40625</ymax>
+      </extent>
+      <id>panel9_1e82fb4c_832b_4e37_b337_ee8556f97919</id>
+      <datasource>./panel9.gpkg|layername=panel9</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>panel9</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB 1936 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" name="0" alpha="1" type="fill">
+            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="196,60,57,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="fid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="fid" name=""/>
+        <alias index="1" field="id" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="fid" applyOnUpdate="0" expression=""/>
+        <default field="id" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="fid" unique_strength="1" exp_strength="0" notnull_strength="1" constraints="3"/>
+        <constraint field="id" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="fid" desc="" exp=""/>
+        <constraint field="id" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer geometry="Polygon" maxScale="0" simplifyDrawingHints="1" simplifyMaxScale="1" autoRefreshEnabled="0" minScale="1e+08" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyMessage="" readOnly="0" type="vector" simplifyLocal="1">
+      <extent>
         <xmin>431143.86145741830114275</xmin>
         <ymin>434989.54027378046885133</ymin>
         <xmax>431242.99896555813029408</xmax>
@@ -2403,6 +2739,8 @@ def my_form_open(dialog, layer, feature):
     <layer id="panel6_0bfa2b35_2e6d_43de_8086_f5eec004161e"/>
     <layer id="panel7_2572c2d9_e3a6_4137_9874_7c2305ec052c"/>
     <layer id="panel8_b4ee9464_1cd8_43e0_bdfd_64d8e0710c0c"/>
+    <layer id="panel9_1e82fb4c_832b_4e37_b337_ee8556f97919"/>
+    <layer id="panel10_1c3ae938_0a0a_4daf_aeaa_79ead5d576a4"/>
   </layerorder>
   <properties>
     <WMTSMinScale type="int">5000</WMTSMinScale>

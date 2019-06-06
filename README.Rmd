@@ -1,6 +1,6 @@
 ---
 title: Chaco PV overview document
-output: github_document
+output: word_document
 bibliography: chaco.bib
 ---
 
