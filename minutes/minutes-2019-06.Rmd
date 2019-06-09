@@ -1,12 +1,17 @@
-Meeting on PV installation in Chaco, 2019-06-05
+---
+# output: word_document
+title: Meeting on PV installation in Chaco, 2019-06-05
+---
 
 Present: Robin, Bill, James
 
+## Points discussed
+
 - Meeting with contractor in June/July
 
-- Household energy survey - delay due to RL. RL to share where we're at.
+- Household energy survey - delay due to RL. **Action**: RL to share where we're at.
 
-- NPG? RL to get in touch with holding email and say details to follow after contractor meeting.
+- NPG? **Action**: RL to get in touch with holding email and say details to follow after contractor meeting.
 
 ## Questions
 
@@ -16,8 +21,7 @@ Present: Robin, Bill, James
 
 - Who is doing M&E work for ChaCo? Question for contractor meeting.
 
-- £53k assuming median cost per KWp of £1,080/KWp  for 10 to 50 KWp systems - in March 2018 would get 49KWp system based on data from BEIS.
-See https://www.gov.uk/government/statistics/solar-pv-cost-data
+- We were quoted £53k for a ~35 KWp system, why was this above industry rate? Assuming median cost per KWp of £1,080/KWp  for 10 to 50 KWp systems - in March 2018 would get 49KWp system based on data from BEIS. See https://www.gov.uk/government/statistics/solar-pv-cost-data
 
 ```{r}
 # 53 / 1.08
@@ -27,4 +31,10 @@ See https://www.gov.uk/government/statistics/solar-pv-cost-data
 - 2 * 3.6 kW charging points are in the plan - what monitoring plans are in place on this? 
 
 - Interesting question: how will electrically powered community facilities such as EV charging and laundry work and what impact could they have on energy use? Will it reduce the need to own washing machines?
+
+```{r, eval=FALSE, echo=FALSE}
+file.copy("~/chaco-group/chacoSolar/minutes/minutes-2019-06.docx", "~/Dropbox/Chapeltown Cohousing/Energy/Minutes/")
+file.remove("~/Dropbox/Chapeltown Cohousing/Energy/Minutes/minutes-2019-06.Rmd")
+```
+
 

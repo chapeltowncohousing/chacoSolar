@@ -1,6 +1,6 @@
 ---
 title: Chaco PV overview document
-output: word_document
+output: github_document
 bibliography: chaco.bib
 ---
 
@@ -195,26 +195,28 @@ n_panels_joju = 178
 
 ## Scenarios of installed capacity
 
-To summarise the above discussion, different scenarios of installed number of panels are:
+To summarise the above discussion, different scenarios of installed number of panels and power outputs, assuming that 30 go on the common house and per panel output of 270 Wp, are:
+
+```{r, echo=TRUE}
+s1 = 20 * 3 * 2 + 3 * 3 * 4 + n_common_house 
+s2 = 16 * 3 * 2 + 3 * 3 * 4 + n_common_house 
+s3 = 20 * 3 * 2 + n_common_house 
+s4 = 16 * 3 * 2 + n_common_house 
+s5 = 20 * 2 * 2 + 3 * 2 * 4 + n_common_house 
+s6 = 16 * 2 * 2 + 3 * 2 * 4 + n_common_house 
+s7 = 20 * 2 * 2 + n_common_house 
+s8 = 16 * 2 * 2 + n_common_house 
+```
 
 ```{r}
-# s1
-20 * 3 * 2 + 3 * 3 * 4 + n_common_house 
-# s2
-16 * 3 * 2 + 3 * 3 * 4 + n_common_house 
-# s3
-20 * 3 * 2 + n_common_house 
-# s4
-16 * 3 * 2 + n_common_house 
-# s5
-20 * 2 * 2 + 3 * 2 * 4 + n_common_house 
-# s6 
-16 * 2 * 2 + 3 * 2 * 4 + n_common_house 
-# s7
-20 * 2 * 2 + n_common_house 
-# s8
-16 * 2 * 2 + n_common_house 
+scenario_power = NULL
+scenarios = paste0("s", 1:8)
+for(i in scenarios) {
+  scenario_power = c(scenario_power, get(i) * output / 1000)
+}
+message(paste0(scenarios, ": ", scenario_power, " kWp "))
 ```
+
 
 
 - S1: **186 panels**. This involves 3-deep landscape stacking on the terrace, panels on the curved sections, panels in the shaded areas. 
